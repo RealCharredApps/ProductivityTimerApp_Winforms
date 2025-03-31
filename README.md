@@ -9,3 +9,7 @@ A simple yet powerful productivity timer app with:
 - ✅ Subtle alert sound
 - ✅ JSON state persistence (last timer, UI state, location on screen)
 - ✅ Toggle minimal view with window memory
+
+### 🔽 Download
+
+👉 [Download latest EXE](https://github.com/your-username/your-repo-name/releases/latest)

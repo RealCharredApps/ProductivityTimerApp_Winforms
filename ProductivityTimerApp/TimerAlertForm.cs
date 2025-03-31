@@ -44,7 +44,7 @@ namespace ProductivityTimerApp
             Controls.Add(message);
             Controls.Add(dismissButton);
 
-            player = new SoundPlayer("Assets/alert.wav");
+            //player = new SoundPlayer("Assets/alert.wav");
             player.PlayLooping(); // play until dismissed
         }
     }

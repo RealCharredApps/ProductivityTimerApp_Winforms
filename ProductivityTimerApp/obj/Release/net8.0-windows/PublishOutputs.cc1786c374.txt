@@ -1,4 +1,5 @@
 C:\Users\Justin.Sjaaheim\Documents\000. JS Cert Learn\Vid Job Scripts\00_1a_ProductivityTimer_WinForms1\ProductivityTimerApp\bin\Release\net8.0-windows\publish\ProductivityTimerApp.exe
+C:\Users\Justin.Sjaaheim\Documents\000. JS Cert Learn\Vid Job Scripts\00_1a_ProductivityTimer_WinForms1\ProductivityTimerApp\bin\Release\net8.0-windows\publish\Assets\\alert.wav
 C:\Users\Justin.Sjaaheim\Documents\000. JS Cert Learn\Vid Job Scripts\00_1a_ProductivityTimer_WinForms1\ProductivityTimerApp\bin\Release\net8.0-windows\publish\ProductivityTimerApp.dll
 C:\Users\Justin.Sjaaheim\Documents\000. JS Cert Learn\Vid Job Scripts\00_1a_ProductivityTimer_WinForms1\ProductivityTimerApp\bin\Release\net8.0-windows\publish\ProductivityTimerApp.deps.json
 C:\Users\Justin.Sjaaheim\Documents\000. JS Cert Learn\Vid Job Scripts\00_1a_ProductivityTimer_WinForms1\ProductivityTimerApp\bin\Release\net8.0-windows\publish\ProductivityTimerApp.runtimeconfig.json

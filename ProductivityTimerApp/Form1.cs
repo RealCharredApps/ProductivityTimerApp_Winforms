@@ -259,7 +259,13 @@ namespace ProductivityTimerApp
                 {
                     string soundPath = Path.Combine(Application.StartupPath, "Assets", "alert.wav");
                     if (File.Exists(soundPath))
+                    {
                         new SoundPlayer(soundPath).Play();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Sound file missing: " + soundPath);
+                    }
 
                 }
                 catch { }

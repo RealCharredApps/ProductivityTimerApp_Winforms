@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProductivityTimerApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8946dc3b0817314d07cc30e13f26dc55e704b600")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0d138a361af58f11cbea3b67b56860f8cc442f0c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProductivityTimerApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProductivityTimerApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

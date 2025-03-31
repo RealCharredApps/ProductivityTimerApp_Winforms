@@ -12,3 +12,5 @@ C:\Users\Justin.Sjaaheim\Documents\000. JS Cert Learn\Vid Job Scripts\00_1a_Prod
 C:\Users\Justin.Sjaaheim\Documents\000. JS Cert Learn\Vid Job Scripts\00_1a_ProductivityTimer_WinForms1\ProductivityTimerApp\obj\Release\net8.0-windows\ProductivityTimerApp.pdb
 C:\Users\Justin.Sjaaheim\Documents\000. JS Cert Learn\Vid Job Scripts\00_1a_ProductivityTimer_WinForms1\ProductivityTimerApp\obj\Release\net8.0-windows\ProductivityTimerApp.genruntimeconfig.cache
 C:\Users\Justin.Sjaaheim\Documents\000. JS Cert Learn\Vid Job Scripts\00_1a_ProductivityTimer_WinForms1\ProductivityTimerApp\obj\Release\net8.0-windows\ref\ProductivityTimerApp.dll
+C:\Users\Justin.Sjaaheim\Documents\000. JS Cert Learn\Vid Job Scripts\00_1a_ProductivityTimer_WinForms1\ProductivityTimerApp\bin\Release\net8.0-windows\Assets\alert.wav
+C:\Users\Justin.Sjaaheim\Documents\000. JS Cert Learn\Vid Job Scripts\00_1a_ProductivityTimer_WinForms1\ProductivityTimerApp\obj\Release\net8.0-windows\ProductivityTimerApp.sourcelink.json
