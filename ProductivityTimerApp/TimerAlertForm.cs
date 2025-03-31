@@ -25,7 +25,7 @@ namespace ProductivityTimerApp
                 Text = "Time for a break???",
                 Dock = DockStyle.Top,
                 Height = 60,
-                Font = new Font("Segoe UI", 18, FontStyle.Bold),
+                Font = new Font("Segoe UI", 12, FontStyle.Bold),
                 TextAlign = ContentAlignment.MiddleCenter
             };
 

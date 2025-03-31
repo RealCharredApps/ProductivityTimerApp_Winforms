@@ -64,6 +64,8 @@ namespace ProductivityTimerApp
 
             InitializeComponents();
             LoadAppState();
+            lblTime.Text = txtTime.Text;
+
         }
 
         private void InitializeComponents()
@@ -255,12 +257,23 @@ namespace ProductivityTimerApp
 
                 try
                 {
-                    new SoundPlayer("Assets/alert.wav").Play();
+                    string soundPath = Path.Combine(Application.StartupPath, "Assets", "alert.wav");
+                    if (File.Exists(soundPath))
+                        new SoundPlayer(soundPath).Play();
+
                 }
                 catch { }
 
                 var alert = new TimerAlertForm(txtTitle.Text);
                 alert.Show();
+
+                // ✅ Bring main form to front
+                this.Invoke((Action)(() =>
+                {
+                    this.TopMost = true;
+                    this.Activate();
+                    this.TopMost = false;
+                }));
             }
         }
 
@@ -330,6 +343,7 @@ namespace ProductivityTimerApp
                                         Location = location
                                     };
                                     minimalForm.Show();
+                                    UpdateMinimalForm(lblTime.Text, txtTitle.Text);
                                 }
                             }
                             return;

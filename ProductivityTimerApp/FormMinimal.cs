@@ -21,11 +21,9 @@ namespace ProductivityTimerApp
             this.TopMost = true;
             StartPosition = FormStartPosition.CenterScreen;
             Size = new Size(260, 130);
-            MinimumSize = new Size(220, 100);
+            MinimumSize = new Size(260, 130);
             MaximumSize = new Size(400, 200);
             FormBorderStyle = FormBorderStyle.SizableToolWindow;
-
-            Shown += (s, e) => AdjustFontSizes(); // ensures font adjusts at launch
 
             this.SetStyle(ControlStyles.UserPaint |
                           ControlStyles.AllPaintingInWmPaint |
@@ -63,7 +61,7 @@ namespace ProductivityTimerApp
             lblTime = new Label
             {
                 Dock = DockStyle.Fill,
-                Font = new Font("Consolas", 32, FontStyle.Bold),
+                Font = new Font("Consolas", 12, FontStyle.Bold),
                 TextAlign = ContentAlignment.MiddleCenter,
                 //Text = "00:00:00",
                 AutoSize = false
@@ -74,7 +72,8 @@ namespace ProductivityTimerApp
                 Dock = DockStyle.Fill,
                 Font = new Font("Segoe UI", 10),
                 TextAlign = ContentAlignment.TopCenter,
-                AutoSize = false,
+                //Margin = new Padding(0, 0, 0, 5),
+                AutoSize = true,
                 Visible = true, // ✅ ensure it’s not conditionally hidden
             };
 
@@ -82,6 +81,12 @@ namespace ProductivityTimerApp
             layout.Controls.Add(lblTime, 0, 0);
             layout.Controls.Add(lblTitle, 0, 1);
             Controls.Add(layout);
+
+            Shown += (s, e) =>
+            {
+                PerformLayout();
+                Invalidate(); // force redraw so title fits
+            };
 
             Resize += (s, e) => AdjustFontSizes();
         }
